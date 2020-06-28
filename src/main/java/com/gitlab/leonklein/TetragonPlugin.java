@@ -56,6 +56,8 @@ public class TetragonPlugin extends JavaPlugin {
     lootItems.add(new ItemStack(Material.APPLE, 5));
     lootItems.add(new ItemStack(Material.COOKED_CHICKEN, 9));
     lootItems.add(new ItemStack(Material.COOKED_MUTTON, 6));
+    registerCommands();
+    registerListener();
   }
 
   private void registerCommands() {
