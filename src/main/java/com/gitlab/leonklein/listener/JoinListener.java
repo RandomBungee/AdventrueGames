@@ -12,7 +12,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 public class JoinListener implements Listener {
   private final TetragonPlugin tetragonPlugin;
 
-  private JoinListener(TetragonPlugin tetragonPlugin) {
+  public JoinListener(TetragonPlugin tetragonPlugin) {
     this.tetragonPlugin = tetragonPlugin;
   }
 

@@ -13,7 +13,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 public class PlayerDeath implements Listener {
   private final TetragonPlugin tetragonPlugin;
 
-  private PlayerDeath(TetragonPlugin tetragonPlugin) {
+  public PlayerDeath(TetragonPlugin tetragonPlugin) {
     this.tetragonPlugin = tetragonPlugin;
   }
 

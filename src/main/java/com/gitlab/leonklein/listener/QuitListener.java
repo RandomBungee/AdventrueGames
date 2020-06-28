@@ -11,7 +11,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 public class QuitListener implements Listener {
   private final TetragonPlugin tetragonPlugin;
 
-  private QuitListener(TetragonPlugin tetragonPlugin) {
+  public QuitListener(TetragonPlugin tetragonPlugin) {
     this.tetragonPlugin = tetragonPlugin;
   }
 
