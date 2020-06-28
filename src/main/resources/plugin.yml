@@ -1,0 +1,8 @@
+name: AdvGames
+version: 1.0.0
+author: RandomBungee
+
+main: com.gitlab.leonklein.TetragonPlugin
+
+commands:
+  setup:

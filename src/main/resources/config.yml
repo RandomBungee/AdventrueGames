@@ -1,0 +1,7 @@
+##This is for messages
+##Please do not replace things like %player%
+prefix: '&3&lAdvGames &8〣 &7'
+countdown1: '&7Die Runde beginnt in &b%count% &Sekunden'
+countdown2: '&7Die Runde beginnt in &beiner &7Sekunde'
+killMessage: '&7Der Spieler &b%player% &7wurde von &b%killer% &7getötet!'
+deathMessage: '&7Der Spieler &b%player% &7ist gestorben!'
