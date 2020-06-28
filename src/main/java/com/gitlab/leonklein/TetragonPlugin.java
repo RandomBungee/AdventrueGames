@@ -39,7 +39,7 @@ public class TetragonPlugin extends JavaPlugin {
 
   @Override
   public void onDisable() {
-    getLogger().info("§7Tetragon-Plugin [AdvGames] unloaded!");
+    getLogger().info("§7Tetragon-Plugin [AdvGames] disabled!");
   }
 
   private void initial() {
