@@ -22,7 +22,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class TetragonPlugin extends JavaPlugin {
   private TetragonPlugin() {}
 
-  public static final String PREFIX = "";
+  public static String prefix;
   public Locations locations;
   public Game game;
   public Items items;
@@ -43,6 +43,8 @@ public class TetragonPlugin extends JavaPlugin {
   }
 
   private void initial() {
+    prefix = getConfig().getString("prefix")
+        .replaceAll("&", "§");
     game = new Game();
     locations = new Locations();
     items = new Items();
